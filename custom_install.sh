@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash -i
 
 # Exit on error
 set -o errexit
@@ -8,5 +8,4 @@ set -o errtrace
 # Install dotfiles
 ~/.bash_it/install.sh --silent --append-to-config
 source ~/.bashrc
-bash
 bash-it enable aliases git kubectl
