@@ -10,3 +10,5 @@ completion system
 
 # aliases
 aliases general
+aliases git
+aliases kubectl
